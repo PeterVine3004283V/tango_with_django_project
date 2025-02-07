@@ -21,7 +21,11 @@
         {% endif %}
     </div>
     <div>
-        <a href="/rango/">Back</a>
+        {% if category %}
+            <a href="/rango/category/{{ category.slug }}/add_page/">Add Page</a> <br/>
+        {% else %}the specified category does not exist.{% endif %}
+
+        <a href="/rango/">Back</a> <br/>
     </div>
 </body>
 </html>
