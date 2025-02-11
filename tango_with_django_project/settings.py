@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-n(0&!okvrfi#n_*j19c1jf+ze&10szw1$f2vsyn$9nf_dtd$t6
 DEBUG = True
 
 ALLOWED_HOSTS = ['PeterDaGrape.pythonanywhere.com', '127.0.0.1']
-
+LOGIN_URL = 'rango:login'
 
 # Application definition
 
